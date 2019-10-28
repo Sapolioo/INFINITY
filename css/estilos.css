@@ -58,7 +58,9 @@
         color: black;
     }
     #botonLogeo{
-        background-color: blue;
+        background-color: transparent;
+        margin-right:5px;
+        margin-left:5px ;
     }
     main {
         width: 96%;
