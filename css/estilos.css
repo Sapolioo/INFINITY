@@ -10,12 +10,10 @@
         width: 96%;
         height: 100px;
         padding: 0% 2%;
-        background: red url(../imagenes/fondo.jpg) ;
+        background: black  ;
         z-index: 2;
     }
-    #box{
-background: violet;
-    }
+    
     #logo{
         display: flex;
         justify-content: center;
@@ -23,36 +21,49 @@ background: violet;
         height: 100%; 
         filter: invert(100%);  
         }
+        
+        
     #menuprincipal {
-    width: 96%;
-    height: 50px;
-    padding: 0% 2%;
-background-color: #9FC8D9;
-border-top: 1px solid #094660;
-border-bottom: 1px solid #094660;
-}
-#menuprincipal > div {
-max-width: 960px;
-margin: 0px auto;
-}
-#menuprincipal li {
-display: inline-block;
-height: 35px;
-padding: 15px 10px 0px 10px;
-margin-right: 5px;
-}
-#menuprincipal li:hover {
-background-color: #6FACC6;
-}
-#menuprincipal a {
-font: bold 18px Arial, sans-serif;
-color: #333333;
-text-decoration: none;
-}
-main {
-width: 96%;
+        width: 96%;
+        height: 50px;
+        padding: 0% 2%;
+        background: -webkit-linear-gradient(top, #000000, #FFFFFF,black);
+        border-top:0px;
+        border-bottom: 0px;
+        display: flex;
+    }
+    #menuprincipal > div {
+        max-width: 75%;
+        margin: 0px auto;
+        background-color: red;
+        justify-content: space-around;
+
+    }
+    #barradenavegacion{
+        justify-content: center;
+    }
+    #menuprincipal li {
+        display: inline-block;
+        height: 35px;
+        padding: 15px 10px 0px 10px;
+        margin-right: 5px;
+    }
+    
+    #menuprincipal a {
+        font: bold 18px Arial, sans-serif;
+        color: grey;
+        text-decoration: none;
+    }
+    #menuprincipal a:hover {
+        color: black;
+    }
+    #botonLogeo{
+        background-color: blue;
+    }
+    main {
+        width: 96%;
 padding: 2%;
-background-image: url("fondo.png");
+background: black url(fondo.png);
 }
 main > div {
 max-width: 960px;
