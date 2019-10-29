@@ -34,14 +34,13 @@ header{
 }
 nav{
     display: flex;
+    height: 30px;
     width: 100%;
     justify-content: space-around;
-    background: chocolate;
+    background: -webkit-linear-gradient(top, #000000,white,black);;
 }
 #menuprincipal{
-
-background: blue;
-width: 60%;
+width: 50%;
 }
 #barradenavegacion{
     display: flex;
@@ -49,29 +48,55 @@ width: 60%;
 }
 #menuprincipal li {
     display: inline-block;
-    height: 35px;
-    padding: 15px 10px 0px 10px;
-    margin-right: 50px;
+    
+    height: 30px;
+    padding: 5px 10px 0px 10px;
+    margin-right: 00px;
+    margin-left: 80px;
+}
+a{
+    color: grey;
+    font: icon;
+}
+a:hover{
+    color: wheat;
+    background: url(../imagenes/galaxia8.jpg);
 }
 #BarradeBusqueda{
     background:transparent;
     box-sizing: content-box;
     width: 20%;
-    background: red;
+
 }
 #BarradeBusqueda > input{
-    
-    height: 92%;
-    
+   margin-top:5px ; 
+   margin-left: 30px;
+   width: 250px;
+
   
 } 
 #Registro{
-    float: left;
-    background: yellow;
-    width: 20%;
+
+    width: 30%;
 }
 #Registro > button{
-    margin: 12px 10px 10px 0px  ;
-    height: 50%;
-    width: 30px;
+    margin-top: 3px ;
+    margin-left: 50px;
+    height: 75%;
+    width: 30%;
+
 }
+section{
+    width: 100%;
+    height: 720px;
+    background: violet;
+}
+#CajaPrincipal{
+    width: 100%;
+    height: 75%;
+   
+}
+#CajaPrincipal>img{
+    width: 100%;
+}
+
